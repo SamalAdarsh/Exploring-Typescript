@@ -14,3 +14,6 @@ const coffeeItems: [name: string,price:number] = ["Latte",25];
 //read-only tuples
 
 const location: readonly [number,number] = [33.88,99.01];
+
+let t: [string,number] = ["latte",2];
+t.push("expresso");
